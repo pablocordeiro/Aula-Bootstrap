@@ -99,9 +99,9 @@
 							<td>Jon Snow</td>
 							<td><span class="label label-primary">Em Andamento</span></td>						
 							<td class="text-center">
-								<a href=""><span class="glyphicon glyphicon-ok text-success"></span></a>
-								<a href=""><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-								<a href=""><span class="glyphicon glyphicon-trash text-danger"></span></a>
+								<a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+								<a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+								<a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
 							</td>
 						</tr>
 						<tr>
@@ -112,9 +112,9 @@
 							<td>Jon Snow</td>
 							<td><span class="label label-default">Em Andamento</span></td>						
 							<td class="text-center">
-								<a href=""><span class="glyphicon glyphicon-ok text-success"></span></a>
-								<a href=""><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-								<a href=""><span class="glyphicon glyphicon-trash text-danger"></span></a>
+								<a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+								<a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+								<a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
 							</td>
 						</tr>
 						<tr>
@@ -125,9 +125,9 @@
 							<td>Jon Snow</td>
 							<td><span class="label label-warning">Em Andamento</span></td>						
 							<td class="text-center">
-								<a href=""><span class="glyphicon glyphicon-ok text-success"></span></a>
-								<a href=""><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-								<a href=""><span class="glyphicon glyphicon-trash text-danger"></span></a>
+								<a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+								<a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+								<a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
 							</td>
 						</tr>
 						<tr>
@@ -138,9 +138,9 @@
 							<td>Jon Snow</td>
 							<td><span class="label label-danger">Em Andamento</span></td>						
 							<td class="text-center">
-								<a href=""><span class="glyphicon glyphicon-ok text-success"></span></a>
-								<a href=""><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-								<a href=""><span class="glyphicon glyphicon-trash text-danger"></span></a>
+								<a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+								<a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+								<a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
 							</td>
 						</tr>
 						<tr>
@@ -151,17 +151,55 @@
 							<td>Jon Snow</td>
 							<td><span class="label label-success">Em Andamento</span></td>						
 							<td class="text-center">
-								<a href=""><span class="glyphicon glyphicon-ok text-success"></span></a>
-								<a href=""><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-								<a href=""><span class="glyphicon glyphicon-trash text-danger"></span></a>
+								<a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+								<a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+								<a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
 							</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
+
+			<footer class="row">
+				<div class="col-sm-6">
+					<button class="btn btn-primary" data-toggle="modal" data-target="#NovaOS">Nova Ordem de Serviço</button>
+				</div>
+				<div class="col-sm-6 paginacao text-right">
+					<ul class="pagination">
+						<li class="disable"><a href=""><span>ª</span></a></li>
+						<li class="active"><a href="">1</a></li>
+						<li><a href="">2</a></li>
+						<li><a href="">3</a></li>
+						<li><a href="">4</a></li>
+						<li><a href="">5</a></li>
+						<li><a href=""><span>ª</span></a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+
+		<div class="modal fade" id="NovaOS">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Nova Ordem de Serviço</h4>
+					</div>
+
+					<form>
+						<div class="modal-body">
+							
+						</div>
+						<div class="modal-footer">
+							<button type="reset" class="btn btn-danger">Limpar</button>
+							<button type="submit" class="btn btn-primary">Salvar</button>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 	
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
